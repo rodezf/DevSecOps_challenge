@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: password-generator
-        image: password-generator:1.0.0  # Replace with your Docker image name and tag
+        image: password-generator:1.0.0  
         ports:
         - containerPort: 5000
         env:
